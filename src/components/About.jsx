@@ -5,9 +5,9 @@ export default function About() {
     <section className="about">
       <h2>About</h2>
       <p>
-        I'm a frontend developer currently learning React. I'm curious and
-        excited to learn new things, and I aspire to become a fullstack
-        developer someday.
+        I'm a frontend developer currently learning React.{"\n"}I'm curious and
+        excited to learn new things, and aspire to become a fullstack developer
+        someday.
       </p>
     </section>
   );
