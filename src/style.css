@@ -81,7 +81,6 @@ body {
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
-  transition: 0.3s;
 }
 
 .contact button a {
