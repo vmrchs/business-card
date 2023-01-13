@@ -1,5 +1,8 @@
 import React from "react";
 import Me from "../assets/me.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Info() {
   return (
@@ -10,12 +13,12 @@ export default function Info() {
         <p className="stack">Frontend Developer</p>
         <div className="contact">
           <button>
-            <a href="mailto:vmrchs@gmail.com" className="mail-link">
-              Email
-            </a>
+            <FontAwesomeIcon icon={faEnvelope} />
+            <a href="mailto:vmrchs@gmail.com"> Email</a>
           </button>
           <button>
-            <a href="">LinkedIn</a>
+            <FontAwesomeIcon icon={faLinkedin} />
+            <a href=""> LinkedIn</a>
           </button>
         </div>
       </section>

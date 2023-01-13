@@ -27,9 +27,6 @@ body {
   border-radius: 20px;
 }
 
-.main-content {
-}
-
 .info {
   display: flex;
   align-items: center;
@@ -49,9 +46,6 @@ body {
   padding: 10px;
   align-items: center;
   justify-content: center;
-}
-
-.name {
 }
 
 .stack {
@@ -83,11 +77,11 @@ body {
   overflow: visible;
   padding: 4px 10px;
   text-align: center;
-  vertical-align: baseline;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
+  transition: 0.3s;
 }
 
 .contact button a {
@@ -95,34 +89,36 @@ body {
   color: #faf9f6;
 }
 
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+section p {
   font-size: 13px;
   line-height: 1.3;
   text-align: justify;
-  padding: 10px;
+  padding: 5px 15px;
+}
+
+.title {
+  font-size: 22px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
 }
 
 .interests {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-size: 13px;
-  line-height: 1.3;
-  text-align: justify;
-  padding: 10px;
-}
-
-.interests p {
-  padding: 5px;
+  margin-top: 10px;
+  /* align-items: center; */
 }
 
 footer {
   width: 100%;
   max-height: 10vh;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 footer span {
