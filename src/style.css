@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252c;
+  color: #faf9f6;
+  font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.business-card {
+  height: 95vh;
+  background-color: #1a1b21;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 8px 10px rgb(0, 0, 0, 0.2);
+  width: min-content;
+  border-radius: 20px;
+}
+
+.main-content {
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info img {
+  max-height: 300px;
+  border-radius: 20px 20px 0 0;
+}
+
+.section-info {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+}
+
+.stack {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.contact {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.contact button {
+  background-image: linear-gradient(#42a1ec, #0070c9);
+  border: 1px solid #0077cc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #faf9f6;
+  cursor: pointer;
+  direction: ltr;
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  line-height: 1.47059;
+  min-width: 30px;
+  overflow: visible;
+  padding: 4px 10px;
+  text-align: center;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.contact button a {
+  text-decoration: none;
+  color: #faf9f6;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.interests {
+  margin-top: 10px;
+  /* padding: 5px; */
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.interests p {
+  padding: 5px;
+}
+
+footer {
+  width: 100%;
+  justify-content: space-around;
+  max-height: 10vh;
+  margin-top: 15px;
+}
+
+footer a img {
+  max-height: 40px;
+}
